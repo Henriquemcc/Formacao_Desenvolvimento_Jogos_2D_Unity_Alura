@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkerPosition: {fileID: 2130859062}
-  checkerSize: {x: 0.9, y: 0.5}
+  checkerSize: {x: 1, y: 0.11}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
