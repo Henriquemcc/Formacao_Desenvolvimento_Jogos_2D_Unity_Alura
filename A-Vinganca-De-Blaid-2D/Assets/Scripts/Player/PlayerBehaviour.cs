@@ -11,7 +11,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     private void Update()
     {
-        float moveDirection = inputManager.Movement * Time.deltaTime;
+        float moveDirection = inputManager.Movement * Time.deltaTime * 5;
         transform.Translate(moveDirection, 0, 0);
     }
 }
