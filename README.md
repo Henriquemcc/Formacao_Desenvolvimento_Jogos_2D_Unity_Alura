@@ -8,7 +8,7 @@ Este repositório contém os arquivos desenvolvidos durante a [Formação de Des
 
 Os arquivos oficiais do curso, desenvolvidos pelo instrutor, estão disponíveis no repositório do Github deste curso da Alura:
 
-[<img src="" width="16px" height="16px"> ____](____).
+[<img src="https://www.alura.com.br/assets/api/cursos/unity-criando-jogo-metroidvania-2d.svg" width="16px" height="16px"> Unity: criando um jogo metroidvania 2D](https://github.com/alura-cursos/Alura-Fix-BlaidHunt).
 
 ## Cursos
 

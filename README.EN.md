@@ -8,7 +8,7 @@ This repository contains the files developed during the [Training of 2D Game Dev
 
 The official files for the course, developed by the instructor, are available in the GitHub repository of this Alura course:
 
-[<img src="" width="16px" height="16px"> ____](____).
+[<img src="https://www.alura.com.br/assets/api/cursos/unity-criando-jogo-metroidvania-2d.svg" width="16px" height="16px"> Unity: Creating a 2D metroidvania game (Unity: criando um jogo metroidvania 2D)](https://github.com/alura-cursos/Alura-Fix-BlaidHunt).
 
 ## Courses
 
