@@ -4,6 +4,8 @@ public class PlayerBehaviour : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5;
 
+    [SerializeField] private float jumpForce = 3;
+
     private Rigidbody2D _rigidbody;
 
     void Awake()
@@ -24,6 +26,6 @@ public class PlayerBehaviour : MonoBehaviour
 
     private void HandleJump()
     {
-        _rigidbody.linearVelocity += Vector2.up;
+        _rigidbody.linearVelocity += Vector2.up * jumpForce;
     }
 }
