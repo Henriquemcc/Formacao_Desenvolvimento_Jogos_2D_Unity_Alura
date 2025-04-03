@@ -2,9 +2,16 @@ using UnityEngine;
 
 public class PlayerBehaviour : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private InputManager inputManager;
+
     void Start()
     {
-        Debug.Log("Hello World!");   
+        inputManager = new InputManager();
+    }
+
+    private void Update()
+    {
+        float moveDirection = inputManager.Movement;
+        transform.Translate(moveDirection, 0, 0);
     }
 }
