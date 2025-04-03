@@ -12,6 +12,15 @@ public class IsGroundedChecker : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+        if (checkerPosition == null) return;
+        if (IsGrounded())
+        {
+            Gizmos.color = Color.red;
+        }
+        else
+        {
+            Gizmos.color = Color.green;
+        }
         Gizmos.DrawWireCube(checkerPosition.position, checkerSize);
     }
 }
