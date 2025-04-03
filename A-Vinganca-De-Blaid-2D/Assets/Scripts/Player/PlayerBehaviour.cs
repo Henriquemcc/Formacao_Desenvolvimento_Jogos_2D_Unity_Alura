@@ -4,6 +4,13 @@ public class PlayerBehaviour : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5;
 
+    private Rigidbody2D _rigidbody;
+
+    void Awake()
+    {
+        _rigidbody = GetComponent<Rigidbody2D>();
+    }
+
     private void Start()
     {
         GameManager.Instance.inputManager.OnJump += HandleJump;
@@ -15,7 +22,8 @@ public class PlayerBehaviour : MonoBehaviour
         transform.Translate(moveDirection, 0, 0);
     }
 
-    private void HandleJump() {
-        Debug.Log("Estou pulando!");
+    private void HandleJump()
+    {
+        _rigidbody.linearVelocity += Vector2.up;
     }
 }
