@@ -23,8 +23,9 @@ public class PlayerBehaviour : MonoBehaviour
     private void Update()
     {
         // Realiza a movimentação horizontal do personagem
-        float moveDirection = GameManager.Instance.inputManager.Movement * Time.deltaTime * moveSpeed;
-        transform.Translate(moveDirection, 0, 0);
+        float moveDirection = GameManager.Instance.inputManager.Movement;
+        Vector2 vectorMoveDirection = new Vector2(moveDirection, transform.position.y);
+        _rigidbody.linearVelocity = vectorMoveDirection * moveSpeed;
     }
 
     // Realiza o pulo do personagem
