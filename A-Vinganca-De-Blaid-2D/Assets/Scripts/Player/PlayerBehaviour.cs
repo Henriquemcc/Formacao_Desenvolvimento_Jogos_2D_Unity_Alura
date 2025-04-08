@@ -28,7 +28,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     private void HandleJump()
     {
-        if (isGroundedChecker.IsGrounded() == true)            
+        if (isGroundedChecker.IsGrounded())            
             _rigidbody.linearVelocity += Vector2.up * jumpForce;
     }
 }
