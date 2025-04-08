@@ -22,10 +22,12 @@ public class PlayerBehaviour : MonoBehaviour
 
     private void Update()
     {
+        // Realiza a movimentação horizontal do personagem
         float moveDirection = GameManager.Instance.inputManager.Movement * Time.deltaTime * moveSpeed;
         transform.Translate(moveDirection, 0, 0);
     }
 
+    // Realiza o pulo do personagem
     private void HandleJump()
     {
         if (isGroundedChecker.IsGrounded())            
