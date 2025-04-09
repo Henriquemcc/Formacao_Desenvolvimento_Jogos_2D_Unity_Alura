@@ -208,20 +208,20 @@ TextureImporter:
       name: Heroina_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 1213
-        width: 121
-        height: 99
+        x: 5
+        y: 1179
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c1aa95b5c802d2e10800000000000000
-      internalID: 2174429982289930780
+      spriteID: 2828cc8d2a1a1ed6ca87dc52fa724487
+      internalID: -2005566389
       vertices: []
       indices: 
       edges: []
@@ -230,20 +230,20 @@ TextureImporter:
       name: Heroina_1
       rect:
         serializedVersion: 2
-        x: 220
-        y: 1214
-        width: 119
-        height: 96
+        x: 173
+        y: 1179
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d828ce28702633b40800000000000000
-      internalID: 5418782561057669773
+      spriteID: 7b26024c0272ca4a18128eaecea18c3b
+      internalID: -1076771078
       vertices: []
       indices: 
       edges: []
@@ -252,20 +252,20 @@ TextureImporter:
       name: Heroina_2
       rect:
         serializedVersion: 2
-        x: 392
-        y: 1213
-        width: 110
-        height: 99
+        x: 341
+        y: 1179
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f038a245b926d1610800000000000000
-      internalID: 1593538262430548751
+      spriteID: 8f3ea34787f5a61bdb2832a1fe4efc9e
+      internalID: 321689430
       vertices: []
       indices: 
       edges: []
@@ -274,20 +274,20 @@ TextureImporter:
       name: Heroina_3
       rect:
         serializedVersion: 2
-        x: 558
-        y: 1212
-        width: 119
-        height: 100
+        x: 509
+        y: 1179
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: de0259dd5951c6be0800000000000000
-      internalID: -1482786443899887379
+      spriteID: d0ff94a43a8fb39a395bf0fa144d1793
+      internalID: 413268124
       vertices: []
       indices: 
       edges: []
@@ -296,20 +296,20 @@ TextureImporter:
       name: Heroina_4
       rect:
         serializedVersion: 2
-        x: 721
-        y: 1213
-        width: 124
-        height: 98
+        x: 677
+        y: 1179
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5f4f64903023ac2a0800000000000000
-      internalID: -6716500905647737611
+      spriteID: 5f5f5cc3e2ced4a49996e3893057a5f2
+      internalID: -1599399999
       vertices: []
       indices: 
       edges: []
@@ -318,20 +318,20 @@ TextureImporter:
       name: Heroina_5
       rect:
         serializedVersion: 2
-        x: 51
-        y: 1046
-        width: 120
-        height: 96
+        x: 5
+        y: 1011
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 072f1bc70e47c23c0800000000000000
-      internalID: -4382999829824802192
+      spriteID: 047432c3670fa291ba023327341bd3e8
+      internalID: 764380370
       vertices: []
       indices: 
       edges: []
@@ -340,20 +340,20 @@ TextureImporter:
       name: Heroina_6
       rect:
         serializedVersion: 2
-        x: 223
-        y: 1045
-        width: 110
-        height: 98
+        x: 173
+        y: 1011
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 17eea94511ede14a0800000000000000
-      internalID: -6620610236172800399
+      spriteID: 38ef208a5b205e6eab65e3d07394aee6
+      internalID: -135697241
       vertices: []
       indices: 
       edges: []
@@ -362,20 +362,20 @@ TextureImporter:
       name: Heroina_7
       rect:
         serializedVersion: 2
-        x: 388
-        y: 1044
-        width: 120
-        height: 99
+        x: 341
+        y: 1011
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f9b8f0df654eeeba0800000000000000
-      internalID: -6057653386502763617
+      spriteID: f8453a1d4a41d9f1bac1fe0e072507cd
+      internalID: 1242965664
       vertices: []
       indices: 
       edges: []
@@ -384,20 +384,20 @@ TextureImporter:
       name: Heroina_8
       rect:
         serializedVersion: 2
-        x: 551
-        y: 1043
-        width: 81
-        height: 105
+        x: 509
+        y: 1011
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4baca59adb94bbd70800000000000000
-      internalID: 9059916154324830900
+      spriteID: d526cb71a3c6370eb9e31e875600c562
+      internalID: -1544324759
       vertices: []
       indices: 
       edges: []
@@ -406,20 +406,20 @@ TextureImporter:
       name: Heroina_9
       rect:
         serializedVersion: 2
-        x: 722
-        y: 1042
-        width: 91
-        height: 117
+        x: 677
+        y: 1011
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d1b2e4b3f54e1abf0800000000000000
-      internalID: -314719401271219427
+      spriteID: 9702602dfb49f69afa07908d3ec109e1
+      internalID: 2005384122
       vertices: []
       indices: 
       edges: []
@@ -428,20 +428,20 @@ TextureImporter:
       name: Heroina_10
       rect:
         serializedVersion: 2
-        x: 38
-        y: 874
-        width: 95
-        height: 113
+        x: 5
+        y: 843
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2eb0c848230c87330800000000000000
-      internalID: 3708925616344271842
+      spriteID: 0a2f67dfddb496827bac67bbefeaf952
+      internalID: -50425112
       vertices: []
       indices: 
       edges: []
@@ -450,20 +450,20 @@ TextureImporter:
       name: Heroina_11
       rect:
         serializedVersion: 2
-        x: 195
-        y: 874
-        width: 119
-        height: 103
+        x: 173
+        y: 843
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0626e05494b4a20e0800000000000000
-      internalID: -2293938282128580000
+      spriteID: f1bb63f6782236d0ea47b400782cb78d
+      internalID: -902581851
       vertices: []
       indices: 
       edges: []
@@ -472,20 +472,20 @@ TextureImporter:
       name: Heroina_12
       rect:
         serializedVersion: 2
-        x: 375
-        y: 874
-        width: 119
-        height: 103
+        x: 341
+        y: 843
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b4c7cffd51812580800000000000000
-      internalID: -8853653151710460749
+      spriteID: 4d47f4200091c261fa5fd9d412964fb4
+      internalID: 48101182
       vertices: []
       indices: 
       edges: []
@@ -494,20 +494,20 @@ TextureImporter:
       name: Heroina_13
       rect:
         serializedVersion: 2
-        x: 549
-        y: 873
-        width: 126
-        height: 103
+        x: 509
+        y: 843
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bad0a64711e012710800000000000000
-      internalID: 1666628805234134443
+      spriteID: f5d54623a06a6f446b11666ea71d33e0
+      internalID: -2044542995
       vertices: []
       indices: 
       edges: []
@@ -516,20 +516,20 @@ TextureImporter:
       name: Heroina_14
       rect:
         serializedVersion: 2
-        x: 731
-        y: 883
-        width: 64
-        height: 87
+        x: 677
+        y: 843
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 646bed8f279fdce30800000000000000
-      internalID: 4525547472774149702
+      spriteID: 64bfdae1f68ca9feb8d95a934832d89a
+      internalID: 1661872042
       vertices: []
       indices: 
       edges: []
@@ -538,20 +538,20 @@ TextureImporter:
       name: Heroina_15
       rect:
         serializedVersion: 2
-        x: 31
-        y: 697
-        width: 86
-        height: 107
+        x: 5
+        y: 675
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f436339350264c7c0800000000000000
-      internalID: -4052005990152576177
+      spriteID: 83a8b88d6f8fb61e59a6534f4d6e4643
+      internalID: 521187763
       vertices: []
       indices: 
       edges: []
@@ -560,20 +560,20 @@ TextureImporter:
       name: Heroina_16
       rect:
         serializedVersion: 2
-        x: 203
-        y: 701
-        width: 95
-        height: 118
+        x: 173
+        y: 675
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 206a80807c1da5c50800000000000000
-      internalID: 6654862052156810754
+      spriteID: a207a30b392882e0182241151fc35524
+      internalID: -1283266243
       vertices: []
       indices: 
       edges: []
@@ -582,20 +582,20 @@ TextureImporter:
       name: Heroina_17
       rect:
         serializedVersion: 2
-        x: 378
-        y: 701
-        width: 82
-        height: 110
+        x: 341
+        y: 675
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5fc90eff582bad230800000000000000
-      internalID: 3664437535412624629
+      spriteID: 1bfad81290d8bfb6d9cad0b9939b4507
+      internalID: -837791844
       vertices: []
       indices: 
       edges: []
@@ -604,20 +604,20 @@ TextureImporter:
       name: Heroina_18
       rect:
         serializedVersion: 2
-        x: 544
-        y: 700
-        width: 89
-        height: 115
+        x: 509
+        y: 675
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f491ac82dbde84920800000000000000
-      internalID: 2974888950567147855
+      spriteID: 5a068ec34f13ccb8499075d763aef18a
+      internalID: -2026286857
       vertices: []
       indices: 
       edges: []
@@ -626,20 +626,20 @@ TextureImporter:
       name: Heroina_19
       rect:
         serializedVersion: 2
-        x: 708
-        y: 699
-        width: 95
-        height: 112
+        x: 677
+        y: 675
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d5222a54d11ca9730800000000000000
-      internalID: 4006727149965943389
+      spriteID: 8da5d87dc42942d359528f8f6ee21efa
+      internalID: -1756485477
       vertices: []
       indices: 
       edges: []
@@ -648,20 +648,20 @@ TextureImporter:
       name: Heroina_20
       rect:
         serializedVersion: 2
-        x: 35
-        y: 537
-        width: 101
-        height: 108
+        x: 5
+        y: 507
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c08f9c522792249a0800000000000000
-      internalID: -6250387762599823348
+      spriteID: 85af70216acb8ab0b84e5423b7a65749
+      internalID: 1141276050
       vertices: []
       indices: 
       edges: []
@@ -670,20 +670,20 @@ TextureImporter:
       name: Heroina_21
       rect:
         serializedVersion: 2
-        x: 199
-        y: 532
-        width: 128
-        height: 94
+        x: 173
+        y: 507
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8da60dfaae9ee4990800000000000000
-      internalID: -7399719943541855528
+      spriteID: 7979d89bc814e87fa8080faed9909e5d
+      internalID: -1434602336
       vertices: []
       indices: 
       edges: []
@@ -692,20 +692,20 @@ TextureImporter:
       name: Heroina_22
       rect:
         serializedVersion: 2
-        x: 390
-        y: 539
-        width: 114
-        height: 102
+        x: 341
+        y: 507
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2833c9481f5f4bc90800000000000000
-      internalID: -7154823490324122750
+      spriteID: 89d0d00043eaa058f8e949be147cca67
+      internalID: -1991969866
       vertices: []
       indices: 
       edges: []
@@ -714,20 +714,20 @@ TextureImporter:
       name: Heroina_23
       rect:
         serializedVersion: 2
-        x: 559
-        y: 539
-        width: 117
-        height: 99
+        x: 509
+        y: 507
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2d0e219364ef957d0800000000000000
-      internalID: -2929030505069092654
+      spriteID: 1c565ae1f231e0ec78a87218de3c1a19
+      internalID: -1266359756
       vertices: []
       indices: 
       edges: []
@@ -736,20 +736,20 @@ TextureImporter:
       name: Heroina_24
       rect:
         serializedVersion: 2
-        x: 731
-        y: 539
-        width: 112
-        height: 97
+        x: 677
+        y: 507
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: af65a82b60a450ec0800000000000000
-      internalID: -3601390934387173638
+      spriteID: 5773f14a2bfd63a118b1ef7a8ba1fd83
+      internalID: 770092054
       vertices: []
       indices: 
       edges: []
@@ -758,20 +758,20 @@ TextureImporter:
       name: Heroina_25
       rect:
         serializedVersion: 2
-        x: 54
-        y: 371
-        width: 117
-        height: 99
+        x: 5
+        y: 339
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c3cbec3a252db91f0800000000000000
-      internalID: -1037004036801381316
+      spriteID: 9462625601ea149caa2803e9e814afe5
+      internalID: 2057592641
       vertices: []
       indices: 
       edges: []
@@ -780,20 +780,20 @@ TextureImporter:
       name: Heroina_26
       rect:
         serializedVersion: 2
-        x: 212
-        y: 372
-        width: 85
-        height: 106
+        x: 173
+        y: 339
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 70e0c1548db5ee520800000000000000
-      internalID: 2733223008290999815
+      spriteID: 6703aba0f1e2f4ecea4c474df191e085
+      internalID: -381059336
       vertices: []
       indices: 
       edges: []
@@ -802,20 +802,20 @@ TextureImporter:
       name: Heroina_27
       rect:
         serializedVersion: 2
-        x: 376
-        y: 367
-        width: 94
-        height: 117
+        x: 341
+        y: 339
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a8b32dd37066ef700800000000000000
-      internalID: 576009983637994378
+      spriteID: 8ebace38c5254643a85b3464c7a9dae6
+      internalID: -623834166
       vertices: []
       indices: 
       edges: []
@@ -824,20 +824,20 @@ TextureImporter:
       name: Heroina_28
       rect:
         serializedVersion: 2
-        x: 547
-        y: 366
-        width: 89
-        height: 115
+        x: 509
+        y: 339
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 19b06d4f7ff7ceb70800000000000000
-      internalID: 8929652864110168977
+      spriteID: aafc8f88b5a981e97b58aa5c48996d7c
+      internalID: -1249815314
       vertices: []
       indices: 
       edges: []
@@ -846,20 +846,20 @@ TextureImporter:
       name: Heroina_29
       rect:
         serializedVersion: 2
-        x: 712
-        y: 366
-        width: 96
-        height: 110
+        x: 677
+        y: 339
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 81152a4b1c9fb2a50800000000000000
-      internalID: 6497561497766613272
+      spriteID: b4b9d1981720d83da86af92446d06f13
+      internalID: -1525046056
       vertices: []
       indices: 
       edges: []
@@ -868,20 +868,20 @@ TextureImporter:
       name: Heroina_30
       rect:
         serializedVersion: 2
-        x: 40
-        y: 204
-        width: 93
-        height: 103
+        x: 5
+        y: 171
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a2fc9080a5333de30800000000000000
-      internalID: 4527018512212414250
+      spriteID: 2df045453a1117fe1b5516054ffed71d
+      internalID: 218868608
       vertices: []
       indices: 
       edges: []
@@ -890,20 +890,20 @@ TextureImporter:
       name: Heroina_31
       rect:
         serializedVersion: 2
-        x: 211
-        y: 205
-        width: 87
-        height: 115
+        x: 173
+        y: 171
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d714e22bf1e99f310800000000000000
-      internalID: 1439355414892134781
+      spriteID: 69043a52881b83243a8aea81d06e2962
+      internalID: -2112434668
       vertices: []
       indices: 
       edges: []
@@ -912,20 +912,20 @@ TextureImporter:
       name: Heroina_32
       rect:
         serializedVersion: 2
-        x: 378
-        y: 204
-        width: 90
-        height: 115
+        x: 341
+        y: 171
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0dbb745e94328eb10800000000000000
-      internalID: 2010896033907194832
+      spriteID: 9b5ba0911e3f93e95bbbfb3f1c98ca24
+      internalID: 1721914572
       vertices: []
       indices: 
       edges: []
@@ -934,20 +934,20 @@ TextureImporter:
       name: Heroina_33
       rect:
         serializedVersion: 2
-        x: 544
-        y: 209
-        width: 94
-        height: 114
+        x: 509
+        y: 171
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: abfc37ef3ffc8d740800000000000000
-      internalID: 5177116418515390394
+      spriteID: 05b574e028700bf529978d159201c177
+      internalID: -344237135
       vertices: []
       indices: 
       edges: []
@@ -956,20 +956,20 @@ TextureImporter:
       name: Heroina_34
       rect:
         serializedVersion: 2
-        x: 712
-        y: 215
-        width: 96
-        height: 107
+        x: 677
+        y: 171
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a0e77fd15e8894f10800000000000000
-      internalID: 2254483606107291146
+      spriteID: 14855b342abc6ec9583266e0837ec699
+      internalID: -1443036586
       vertices: []
       indices: 
       edges: []
@@ -978,20 +978,20 @@ TextureImporter:
       name: Heroina_35
       rect:
         serializedVersion: 2
-        x: 37
-        y: 54
-        width: 98
-        height: 109
+        x: 5
+        y: 3
+        width: 168
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fca10effe842844d0800000000000000
-      internalID: -3150227742748828977
+      spriteID: 403d2f0736db3ead1b7d6a5ea19bd0b1
+      internalID: -947777144
       vertices: []
       indices: 
       edges: []
@@ -1000,7 +1000,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 73a9132f67f659ddea852275f3a08e3c
     internalID: 0
     vertices: []
     indices: 
@@ -1009,7 +1009,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Heroina_0: -2005566389
+      Heroina_1: -1076771078
+      Heroina_10: -50425112
+      Heroina_11: -902581851
+      Heroina_12: 48101182
+      Heroina_13: -2044542995
+      Heroina_14: 1661872042
+      Heroina_15: 521187763
+      Heroina_16: -1283266243
+      Heroina_17: -837791844
+      Heroina_18: -2026286857
+      Heroina_19: -1756485477
+      Heroina_2: 321689430
+      Heroina_20: 1141276050
+      Heroina_21: -1434602336
+      Heroina_22: -1991969866
+      Heroina_23: -1266359756
+      Heroina_24: 770092054
+      Heroina_25: 2057592641
+      Heroina_26: -381059336
+      Heroina_27: -623834166
+      Heroina_28: -1249815314
+      Heroina_29: -1525046056
+      Heroina_3: 413268124
+      Heroina_30: 218868608
+      Heroina_31: -2112434668
+      Heroina_32: 1721914572
+      Heroina_33: -344237135
+      Heroina_34: -1443036586
+      Heroina_35: -947777144
+      Heroina_4: -1599399999
+      Heroina_5: 764380370
+      Heroina_6: -135697241
+      Heroina_7: 1242965664
+      Heroina_8: -1544324759
+      Heroina_9: 2005384122
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
