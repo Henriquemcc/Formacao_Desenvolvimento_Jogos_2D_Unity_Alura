@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
 public abstract class BaseEnemy: MonoBehaviour
 {
     protected Animator animator;
