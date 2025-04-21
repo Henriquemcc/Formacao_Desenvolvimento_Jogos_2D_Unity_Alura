@@ -9,6 +9,8 @@ public class PlayerBehaviour : MonoBehaviour
     private Rigidbody2D _rigidbody;
     private IsGroundedChecker isGroundedChecker;
 
+    private float moveDirection;
+
     void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
@@ -20,18 +22,30 @@ public class PlayerBehaviour : MonoBehaviour
         GameManager.Instance.inputManager.OnJump += HandleJump;
     }
 
-    private void Update()
+    // Realiza a movimentação horizontal do personagem
+    private void MovePlayer()
     {
-        // Realiza a movimentação horizontal do personagem
-        float moveDirection = GameManager.Instance.inputManager.Movement;
+        moveDirection = GameManager.Instance.inputManager.Movement;
         _rigidbody.linearVelocity = new Vector2(moveDirection * moveSpeed, _rigidbody.linearVelocityY);
+    }
 
-        // Realiza a mudança de direção do personagem
-        if (moveDirection < 0) {
+    // Realiza a mudança de direção do personagem
+    private void FlipSpriteAccordingToMoveDirection()
+    {
+        if (moveDirection < 0)
+        {
             transform.localScale = new Vector3(-1, 1, 1);
-        } else if (moveDirection > 0) {
+        }
+        else if (moveDirection > 0)
+        {
             transform.localScale = new Vector3(1, 1, 1);
         }
+    }
+
+    private void Update()
+    {
+        MovePlayer();
+        FlipSpriteAccordingToMoveDirection();
     }
 
     // Realiza o pulo do personagem
