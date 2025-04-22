@@ -24,6 +24,8 @@ public class PlayerAnim : MonoBehaviour
 
         playerHealth.OnHurt += PlayerHurtAnim;
         playerHealth.OnDead += PlayerDeadAnim;
+
+        GameManager.Instance.inputManager.OnAttack += PlayAttackAnim;
     }
 
     void Update()
@@ -32,5 +34,10 @@ public class PlayerAnim : MonoBehaviour
         animator.SetBool("isMoving", isMoving);
         bool isJumping = !isGroundedChecker.IsGrounded();
         animator.SetBool("isJumping", isJumping);
+    }
+
+    private void PlayAttackAnim()
+    {
+        animator.SetTrigger("attack");
     }
 }
