@@ -11,6 +11,11 @@ public class PlayerAnim : MonoBehaviour
         animator.SetTrigger("hurt");
     }
 
+    private void PlayerDeadAnim()
+    {
+        animator.SetTrigger("dead");
+    }
+
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -18,6 +23,7 @@ public class PlayerAnim : MonoBehaviour
         playerHealth = GetComponent<Health>();
 
         playerHealth.OnHurt += PlayerHurtAnim;
+        playerHealth.OnDead += PlayerDeadAnim;
     }
 
     void Update()
