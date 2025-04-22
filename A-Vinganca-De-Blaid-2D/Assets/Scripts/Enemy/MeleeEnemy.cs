@@ -6,14 +6,19 @@ public class MeleeEnemy : BaseEnemy
     [SerializeField] private Transform detectPosition;
     [SerializeField] private Vector2 detectBoxSize;
     [SerializeField] private LayerMask playerLayer;
+    [SerializeField] private float attackCooldown;
+    
+    private float cooldownTimer;
 
     protected override void Update()
     {
+        cooldownTimer += Time.deltaTime;
         VerifyCanAttack();
     }
 
     private void VerifyCanAttack()
     {
+        if (cooldownTimer < attackCooldown) return;
         if (PlayerInSight())
         {
             animator.SetTrigger("attack");
@@ -28,6 +33,7 @@ public class MeleeEnemy : BaseEnemy
 
     private void AttackPlayer()
     {
+        cooldownTimer = 0;
         if (CheckPlayerInDetectArea().TryGetComponent(out Health playerHealth))
         {
             print("Making player take damage");
