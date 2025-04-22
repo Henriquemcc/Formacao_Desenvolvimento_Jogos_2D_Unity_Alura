@@ -4,11 +4,20 @@ public class PlayerAnim : MonoBehaviour
 {
     private Animator animator;
     private IsGroundedChecker isGroundedChecker;
+    private Health playerHealth;
+
+    private void PlayerHurtAnim()
+    {
+        animator.SetTrigger("hurt");
+    }
 
     void Awake()
     {
         animator = GetComponent<Animator>();
         isGroundedChecker = GetComponent<IsGroundedChecker>();
+        playerHealth = GetComponent<Health>();
+
+        playerHealth.OnHurt += PlayerHurtAnim;
     }
 
     void Update()
