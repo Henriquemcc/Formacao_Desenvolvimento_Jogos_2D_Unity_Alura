@@ -17,12 +17,27 @@ public class MeleeEnemy : BaseEnemy
         if (PlayerInSight())
         {
             animator.SetTrigger("attack");
+            AttackPlayer();
+        }
+    }
+
+    private Collider2D CheckPlayerInDetectArea()
+    {
+        return Physics2D.OverlapBox(detectPosition.position, detectBoxSize, 0f, playerLayer);
+    }
+
+    private void AttackPlayer()
+    {
+        if (CheckPlayerInDetectArea().TryGetComponent(out Health playerHealth))
+        {
+            print("Making player take damage");
+            playerHealth.TakeDamage();
         }
     }
 
     private bool PlayerInSight()
     {
-        Collider2D playerCollider = Physics2D.OverlapBox(detectPosition.position, detectBoxSize, 0f, playerLayer);
+        Collider2D playerCollider = CheckPlayerInDetectArea();
         return playerCollider != null;
     }
 
