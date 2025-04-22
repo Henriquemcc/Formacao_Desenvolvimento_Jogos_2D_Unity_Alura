@@ -19,4 +19,6 @@ public class InputManager
     private void OnJumpPerformed(InputAction.CallbackContext context) {
         OnJump?.Invoke();
     }
+
+    public void DisablePlayerInput() => playerControls.Gameplay.Disable();
 }

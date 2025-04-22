@@ -11,10 +11,18 @@ public class PlayerBehaviour : MonoBehaviour
 
     private float moveDirection;
 
+    private void HandlePlayerDeath()
+    {
+        GetComponent<Collider2D>().enabled = false;
+        _rigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
+        GameManager.Instance.inputManager.DisablePlayerInput();
+    }
+
     void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         isGroundedChecker = GetComponent<IsGroundedChecker>();
+        GetComponent<Health>().OnDead += HandlePlayerDeath;
     }
 
     private void Start()
