@@ -6,25 +6,14 @@ public class PlayerAnim : MonoBehaviour
     private IsGroundedChecker isGroundedChecker;
     private Health playerHealth;
 
-    private void PlayerHurtAnim()
-    {
-        animator.SetTrigger("hurt");
-    }
-
-    private void PlayerDeadAnim()
-    {
-        animator.SetTrigger("dead");
-    }
-
     void Awake()
     {
         animator = GetComponent<Animator>();
         isGroundedChecker = GetComponent<IsGroundedChecker>();
         playerHealth = GetComponent<Health>();
 
-        playerHealth.OnHurt += PlayerHurtAnim;
-        playerHealth.OnDead += PlayerDeadAnim;
-
+        playerHealth.OnHurt += PlayHurtAnim;
+        playerHealth.OnDead += PlayDeadAnim;
         GameManager.Instance.inputManager.OnAttack += PlayAttackAnim;
     }
 
@@ -39,5 +28,15 @@ public class PlayerAnim : MonoBehaviour
     private void PlayAttackAnim()
     {
         animator.SetTrigger("attack");
+    }
+
+    private void PlayHurtAnim()
+    {
+        animator.SetTrigger("hurt");
+    }
+
+    private void PlayDeadAnim()
+    {
+        animator.SetTrigger("dead");
     }
 }
