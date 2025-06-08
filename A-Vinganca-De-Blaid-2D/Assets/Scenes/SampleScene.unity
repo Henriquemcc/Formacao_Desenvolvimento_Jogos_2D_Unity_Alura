@@ -13554,7 +13554,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SFXAudioSource: {fileID: 1631821817}
   EnvironmentAudioSource: {fileID: 2093843154}
-  SFXConfigs: []
+  SFXConfigs:
+  - Type: 0
+    AudioClip: {fileID: 8300000, guid: 104a1495307be2840816639d1b16de02, type: 3}
+    VolumeScale: 1
+  - Type: 1
+    AudioClip: {fileID: 8300000, guid: 8d14ae0bb92b26a478f6eeef395228ec, type: 3}
+    VolumeScale: 1
+  - Type: 2
+    AudioClip: {fileID: 8300000, guid: fe917ef1ad87d1b48815d480afa7a2d4, type: 3}
+    VolumeScale: 1
+  - Type: 3
+    AudioClip: {fileID: 8300000, guid: be329a28b9f696f4b80416121bdd1778, type: 3}
+    VolumeScale: 1
+  - Type: 4
+    AudioClip: {fileID: 8300000, guid: 57e48a578c4bd904c939c69d63499fa7, type: 3}
+    VolumeScale: 1
 --- !u!1001 &1433884120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13653,7 +13668,7 @@ AudioSource:
   m_GameObject: {fileID: 1631821815}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -6350869337937330821, guid: 06ed5af1e9525da679570ad74a9bd76f, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
@@ -13908,9 +13923,9 @@ AudioSource:
   m_GameObject: {fileID: 2093843152}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -4954984297260085890, guid: 06ed5af1e9525da679570ad74a9bd76f, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 71c2a8ad6a2fbd34c94ab6ca8d141bbb, type: 3}
+  m_Resource: {fileID: 8300000, guid: 71c2a8ad6a2fbd34c94ab6ca8d141bbb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
