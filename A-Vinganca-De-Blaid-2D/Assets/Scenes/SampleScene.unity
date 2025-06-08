@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46604cebc245f0765939c7a04b32c9b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioManager: {fileID: 1375791176}
 --- !u!4 &241888849
 Transform:
   m_ObjectHideFlags: 0
@@ -165,7 +166,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1375791175}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &242510195
@@ -1121,7 +1123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956438907}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13513,6 +13515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1375791175}
+  - component: {fileID: 1375791176}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -13528,15 +13531,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375791174}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.475795, y: -0.22374246, z: 0.079579435}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2093843153}
   - {fileID: 1631821816}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 241888849}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1375791176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375791174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57b6b74fb984658680c0650c54942de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXAudioSource: {fileID: 1631821817}
+  EnvironmentAudioSource: {fileID: 2093843154}
+  SFXConfigs: []
 --- !u!1001 &1433884120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14337,11 +14355,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 241888849}
   - {fileID: 956438910}
-  - {fileID: 1375791175}
   - {fileID: 619394802}
   - {fileID: 281554547}
-  - {fileID: 241888849}
   - {fileID: 299415621}
   - {fileID: 1970361089}
   - {fileID: 918955135}
