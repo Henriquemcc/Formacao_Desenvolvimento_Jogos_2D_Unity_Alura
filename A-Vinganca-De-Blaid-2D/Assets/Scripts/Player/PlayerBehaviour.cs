@@ -26,6 +26,11 @@ public class PlayerBehaviour : MonoBehaviour
         GameManager.Instance.inputManager.DisablePlayerInput();
     }
 
+    private void PlayWalkSound()
+    {
+        GameManager.Instance.AudioManager.PlaySFX(SFX.PlayerWalk);
+    }
+
     void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
