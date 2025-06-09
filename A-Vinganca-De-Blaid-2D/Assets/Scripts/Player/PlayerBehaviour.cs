@@ -16,8 +16,11 @@ public class PlayerBehaviour : MonoBehaviour
 
     private float moveDirection;
 
+    private Health health;
+
     private void HandlePlayerDeath()
     {
+        GameManager.Instance.AudioManager.PlaySFX(SFX.PlayerDeath);
         GetComponent<Collider2D>().enabled = false;
         _rigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
         GameManager.Instance.inputManager.DisablePlayerInput();
@@ -27,7 +30,10 @@ public class PlayerBehaviour : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         isGroundedChecker = GetComponent<IsGroundedChecker>();
-        GetComponent<Health>().OnDead += HandlePlayerDeath;
+        health = GetComponent<Health>();
+
+        health.OnDead += HandlePlayerDeath;
+        health.OnHurt += PlayHurtSound;
     }
 
     private void Start()
@@ -61,15 +67,24 @@ public class PlayerBehaviour : MonoBehaviour
         FlipSpriteAccordingToMoveDirection();
     }
 
+    private void PlayHurtSound()
+    {
+        GameManager.Instance.AudioManager.PlaySFX(SFX.PlayerHurt);
+    }
+
     // Realiza o pulo do personagem
     private void HandleJump()
     {
-        if (isGroundedChecker.IsGrounded())            
+        if (isGroundedChecker.IsGrounded())
+        {
+            GameManager.Instance.AudioManager.PlaySFX(SFX.PlayerJump);
             _rigidbody.linearVelocity += Vector2.up * jumpForce;
+        }
     }
 
     private void Attack()
     {
+        GameManager.Instance.AudioManager.PlaySFX(SFX.PlayerAttack);
         Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, attackLayer);
         print("Making enemy take damage");
         print(hittedEnemies.Length);
