@@ -7,8 +7,18 @@ public class MeleeEnemy : BaseEnemy
     [SerializeField] private Vector2 detectBoxSize;
     [SerializeField] private LayerMask playerLayer;
     [SerializeField] private float attackCooldown;
-    
+
+    [Header("Audio properties")]
+    [SerializeField] private AudioClip[] audioClips;
+
     private float cooldownTimer;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        base.health.OnHurt += PlayHurtAudio;
+        base.health.OnDead += PlayDeadAudio;
+    }
 
     protected override void Update()
     {
@@ -33,6 +43,7 @@ public class MeleeEnemy : BaseEnemy
 
     private void AttackPlayer()
     {
+        audioSource.clip = audioClips[0];
         cooldownTimer = 0;
         if (CheckPlayerInDetectArea().TryGetComponent(out Health playerHealth))
         {
@@ -52,7 +63,19 @@ public class MeleeEnemy : BaseEnemy
         if (detectPosition != null)
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawWireCube(detectPosition.position, detectBoxSize); 
+            Gizmos.DrawWireCube(detectPosition.position, detectBoxSize);
         }
+    }
+
+    private void PlayHurtAudio()
+    {
+        audioSource.clip = audioClips[1];
+        audioSource.Play();
+    }
+
+    private void PlayDeadAudio()
+    {
+        audioSource.clip = audioClips[2];
+        audioSource.Play();
     }
 }
